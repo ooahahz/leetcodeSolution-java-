@@ -1,11 +1,13 @@
 /*
  * @lc app=leetcode.cn id=821 lang=java
- *
+ * 
  * [821] 字符的最短距离
  */
 
 // @lc code=start
-class Solution {
+class Solution {  
+    // 正向循环遍历一次，记录目标的索引，作差
+    // 再逆向循环一次，取最小值，更新数组
     public int[] shortestToChar(String s, char c) {
         int n = s.length();
         int[] ans = new int[n];
