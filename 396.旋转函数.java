@@ -19,10 +19,10 @@ class Solution {
         int numsLen = nums.length;
         int numSum = 0;
 
-        numSum = Arrays.stream(nums).sum(); // 调用系统API计算数组之和
-        // for (int i = 0; i < numsLen; i++) {
-        //     numSum += nums[i]; // 计算数组所有元素之和
-        // }
+        // numSum = Arrays.stream(nums).sum(); // 调用系统API计算数组之和
+        for (int i = 0; i < numsLen; i++) {
+            numSum += nums[i]; // 计算数组所有元素之和
+        }
 
         for (int i = 0; i < numsLen; i++) {
             f += i * nums[i]; // 计算 F(0)
