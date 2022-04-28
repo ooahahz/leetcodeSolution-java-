@@ -9,7 +9,7 @@
 
 // @lc code=start
 class Solution {
-    public int[] sortArrayByParity(int[] nums) {
+    int[] sortArrayByParity(int[] nums) {
         int n = nums.length;
         int[] res = new int[n];
         int left = 0, right = n - 1;
@@ -22,6 +22,17 @@ class Solution {
         }
         return res;
     }
+//     public static void main(String[] args) {
+//         Solution solution = new Solution();
+//         int[] nums = { 4, 3, 5, 9, 8, 7 };
+//         int[] res = solution.sortArrayByParity(nums);
+//         for (int num : res) {
+//             System.out.println(num);
+//         }
+//         
+// 
+//     }
+    
 }
 // @lc code=end
 
