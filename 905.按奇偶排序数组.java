@@ -22,16 +22,16 @@ class Solution {
         }
         return res;
     }
-//     public static void main(String[] args) {
-//         Solution solution = new Solution();
-//         int[] nums = { 4, 3, 5, 9, 8, 7 };
-//         int[] res = solution.sortArrayByParity(nums);
-//         for (int num : res) {
-//             System.out.println(num);
-//         }
-//         
-// 
-//     }
+    public static void main(String[] args) {
+        Solution solution = new Solution();
+        int[] nums = { 4, 3, 5, 9, 8, 7 };
+        int[] res = solution.sortArrayByParity(nums);
+        for (int num : res) {
+            System.out.println(num);
+        }
+        
+
+    }
     
 }
 // @lc code=end
