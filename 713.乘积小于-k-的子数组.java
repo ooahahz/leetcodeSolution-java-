@@ -33,7 +33,8 @@ class Test {
         int[] nums = { 10, 5, 2, 6 };
         int k = 100;
         Test solution = new Test();
-        System.out.println(solution.numSubarrayProductLessThanK(nums, k));
+        int ans = solution.numSubarrayProductLessThanK(nums, k);
+        System.out.println(ans);
 
     }
 }
